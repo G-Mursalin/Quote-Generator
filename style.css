@@ -1,0 +1,79 @@
+/* Importing Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Patrick+Hand&display=swap");
+/* Common Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+  /* font-family: "Patrick Hand", cursive; */
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  background-color: #ffffff;
+}
+.nev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 1rem;
+  font-size: 2.3rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.3rem;
+}
+.quote_container {
+  width: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  border: 2px solid #f00;
+  padding: 2rem 3rem;
+}
+.quote_text {
+}
+#quote {
+  font-family: "Patrick Hand", cursive;
+  font-size: 3rem;
+}
+.quote_author {
+  text-align: right;
+  margin-top: 2rem;
+}
+#author {
+  font-size: 2rem;
+}
+.btn {
+  background: #f88;
+  background-image: linear-gradient(to bottom, #f88, #f00);
+  border-radius: 28px;
+  box-shadow: 4px 3px 8px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: block;
+  margin: 1rem auto 0 auto;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.btn:active {
+  transform: translateY(1rem);
+}
+.btn:hover {
+  background: #f77;
+  background-image: linear-gradient(to bottom, #f77, #f00);
+  text-decoration: none;
+}
